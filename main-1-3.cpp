@@ -1,5 +1,5 @@
 #include <iostream>
-extern num_count(int array[], int n, int number);
+extern num_count(int[], int , int );
 int main(){
     int array[] = {1,2,3,3,3,4,4,5,5,8};
     int number = 3;
