@@ -1,3 +1,4 @@
+#include <iostream>
 double sum_even(double arry[],int n){
     if(n < 1){
         return 0;

@@ -1,5 +1,5 @@
 #include <iostream>
-extern void print_print_fail(char)
+extern void print_pass_fail(char)
 
 int main() {
     char grade1 = 'A';

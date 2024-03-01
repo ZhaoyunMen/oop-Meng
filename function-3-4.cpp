@@ -1,4 +1,4 @@
-void print_print_fail(char grade){
+void print_pass_fail(char grade){
     switch(grade){
         case 'A':
         std::cout <<"Pass"<< std ::endl;
