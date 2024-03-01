@@ -15,7 +15,7 @@ double weighted_average(int array[], int n) {
                 count++;
             }
         }
-        sum += (weight * count) / n;
+        sum += ((weight * count) / n);
     }
 
     return sum;
