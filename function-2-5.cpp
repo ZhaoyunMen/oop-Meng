@@ -1,3 +1,4 @@
+#include <iostream>
 bool is_descending(int array[], int n) {
     
     if (n <= 0)
