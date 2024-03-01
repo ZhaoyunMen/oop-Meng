@@ -1,10 +1,10 @@
 double sum_even(double arry[],int n){
-    if(n<1){
+    if(n < 1){
         return 0;
     }
     double sum = 0;
-    for (int i =0;i<n;i+=2){
+    for (int i =0 ;i < n;i+=2){
         sum += array[i]
     }
-    return static_cast<double>(sum);
+    return sum;
 }

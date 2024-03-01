@@ -9,8 +9,8 @@ int main() {
     
 
     
-    std::cout << "arr1 is fanarray? " << std::boolalpha << is_fanarray(array1, 5) << std::endl;
-    std::cout << "arr2 is fanarray? " << std::boolalpha << is_fanarray(array2, 5) << std::endl;
-
+    std::cout << "arr1 is fanarray? " <<  is_fanarray(array1, 5) << std::endl;
+    std::cout << "arr2 is fanarray? " <<  is_fanarray(array2, 5) << std::endl;
+    
     return 0;
 }
