@@ -9,13 +9,13 @@ double weighted_average(int array[], int n) {
    
     for (int i = 0; i < n; i++) {
         double count = 0.0;
-        double weight = array[i];
+        
         for (int j = 0; j < n; j++) {
             if (array[j] == array[i]) {
-                count++;
+                count ++;
             }
         }
-        sum += ((weight * count) / n);
+        sum += (array[i] * count / n);
     }
 
     return sum;
