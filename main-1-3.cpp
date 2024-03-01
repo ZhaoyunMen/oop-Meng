@@ -1,9 +1,8 @@
 #include <iostream>
-extern num_count(int array[], int , int  );
-int main(){
-    int array[] = {1,2,3,3,3,4,4,5,5,8};
+extern int num_count(int array[], int n, int number);
+int main() {
+    int array[] = {1, 2, 3, 4, 5, 4, 3, 2, 1};
     int number = 3;
-    std::cout << "the number of 3 is:"<<num_count(array,10,number) << std::endl;
-    return 0;
-
+    std::cout << "Number of 3 are: " << num_count(array, 9, number) << std::endl;
+    return 0;
 }

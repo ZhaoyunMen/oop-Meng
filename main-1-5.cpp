@@ -2,6 +2,9 @@
 extern int count_evens(int number);
 int main(){
     int number = 7;
-    std :: "the numberof even numbers is:" <<number<<":"<< count_evens(number)<< std :: endl;
+    std ::cout << "the numberof even numbers is:" <<number<<":"<< count_evens(number)<< std :: endl;
     return 0;
 }
+#include <iostream>
+int count_evens(int number);
+
