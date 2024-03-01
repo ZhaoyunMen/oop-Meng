@@ -10,9 +10,9 @@ bool is_fanarray(int array[], int n){
                 return false;
 
             }
-            else{
-                return true;
-            }
+            
+               
+            
         }
         return true;
     }

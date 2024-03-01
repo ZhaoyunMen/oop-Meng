@@ -9,8 +9,8 @@ int main() {
     
 
     
-    std::cout << "arr1 is ascending? " << std::boolalpha << is_ascending(array1, 5) << std::endl;
-    std::cout << "arr2 is ascending? " << std::boolalpha << is_ascending(array2, 5) << std::endl;
+    std::cout << "arr1 is ascending? " <<  is_ascending(array1, 5) << std::endl;
+    std::cout << "arr2 is ascending? " <<  is_ascending(array2, 5) << std::endl;
 
     return 0;
 }
