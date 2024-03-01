@@ -9,7 +9,7 @@ int main() {
     
 
     
-    std::cout << "The media is: " <<int median_array(array, 5) << std::endl;
+    std::cout << "The media is: " << median_array(array, 5) << std::endl;
     
 
     return 0;
