@@ -1,11 +1,7 @@
 #include <iostream>
-extern void two_five_nine(int[], int)
+extern void two_five_nine(int [], int n);
 int main() {
-    int array[] = { 1, 5, 2, 2, 9, 5, 6, 6, 2, 9};
-    
-
-    
-    two_five_nine(array, 10);
-
-    return 0;
+    int array[7] = {2, 5, 9, 2, 2, 2, 5};
+    two_five_nine(array, 7);
+    return 0;
 }
