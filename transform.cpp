@@ -21,6 +21,14 @@ int transform(int number){
             number = number - 1
         }
     }
-    return Array[]
+    num = int(' '.join(map(str,Array[])))
+    return num
     
+
+
+int main(){
+    Number = transform(9)
+    std::cout << "The answer: " << Number << std::endl;
+    return 0;
+}
 }
