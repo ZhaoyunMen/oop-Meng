@@ -14,8 +14,9 @@ void print_binary_str(std::string decimal_number){
      
     while (number >= 1) {
         if (number > 1){
-            if (number % 2 != 0){
+            if (number % 2 == 1){
                 arr += "1";
+                
             }
             if (number %2 == 0){
                 arr += "0";
