@@ -4,7 +4,7 @@ int array_min(int integers[],int length){
     return -1;
     int min = integers[0];
     for (int i =1; i < length; i ++){
-        if (lengths[i] < min){
+        if (length[i] < min){
             min = integers[i];
         }
     }
