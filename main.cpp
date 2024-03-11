@@ -9,7 +9,7 @@ int main() {
     std::cout << "Changed value: " << value << std::endl;
 
     
-    double arr[] = {1.1, 2.2, 3.3, 4.4, 5.5};
+    double arr[] = {1.2,3.4,2.2,5.6,0.8};
     
     std::cout << "Array elements: ";
     printArray(arr, 5);
