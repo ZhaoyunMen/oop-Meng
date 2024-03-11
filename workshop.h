@@ -1,5 +1,5 @@
 #include <iostream>
-#include <iomanip>
+
 void changeValue(double* ptr) {
     *ptr = 42.0;
 }
@@ -30,11 +30,3 @@ double* dynamicArray(int size, double value) {
     }
     return arr;
 }
-int arraySize = 5;
-double initValue = 3.14;
-double *dynamicArr = dynamicArray(arraySize, initValue);
-std::cout << "Dynamic array elements initialized with " << initValue << ": ";
-printArray(dynamicArr, arraySize);
-std::cout << std::endl;
-
-delete[] dynamicArr;
