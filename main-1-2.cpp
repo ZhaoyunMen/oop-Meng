@@ -7,6 +7,6 @@ int main(){
         array[i] = i;
         
     }
-    modifyArray(array,size,value);
+    modifyArray(array,size,10);
     return 0;
 }
