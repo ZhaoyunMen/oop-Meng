@@ -7,5 +7,6 @@ int main(){
         array[i] = i;
     }
     modifyArray(array,size,100);
+    delete[] void modifyArray(array,size,100);
     return 0;
 }
