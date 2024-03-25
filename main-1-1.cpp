@@ -1,7 +1,7 @@
 #include <iostream>
 #include "Musician.h"
 #include <string>
-extern Musician(std::string instrument, int experience);
+
 int main() {
 
     Musician m1;
