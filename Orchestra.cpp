@@ -1,9 +1,9 @@
 #include "Orchetra.h"
 #include <iostream>
 Orchestra::Orchestra(){
-    int max_size = 0;
-    int current_size = 0;
-    Musician* members = noneptr;
+    max_size = 0;
+    current_size = 0;
+    Musician* members = nullptr;
 }
 Orchestra::Orchestra(int size){
     max_size = size;
