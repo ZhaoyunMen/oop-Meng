@@ -1,4 +1,4 @@
-#include "Orchetra.h"
+#include "Orchestra.h"
 #include <iostream>
 Orchestra::Orchestra(){
     max_size = 0;
