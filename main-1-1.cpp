@@ -1,5 +1,6 @@
 #include <iostream>
 #include "Musician.h"
+extern Musician(std::string instrument, int experience);
 int main() {
 Musician m1;
 std::cout << "Default instrument: " << m1.get_instrument() << ", Default
